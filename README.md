@@ -23,6 +23,8 @@ Execute the macro. It will automatically process all files in the specified fold
 Review the Results:
 
 Upon completion, a new Excel workbook will open displaying the consolidated data. Save it as needed.
+
+
 Code
 Sub MergeExcelFiles()
     ' Declare variables
@@ -106,6 +108,8 @@ Sub MergeExcelFiles()
     MsgBox "All files have been processed successfully."
 
 End Sub
+
+
 Notes
 File Format: Only .xlsx files are processed. To include other file formats, modify the file extension in the code ("*.xlsx").
 Sheet Selection: Only the first sheet of each file is processed. To process other sheets, adjust the Set ws = wb.Sheets(1) line.
